@@ -16,4 +16,12 @@ public class Welcome {
 		return "!!!!!!!!!!!!Welcome from Springboot!!!!!!!!!!!!!!!!";
 		
 	}
+	
+	@GetMapping("/hello")
+	public String helloCOntroller()
+	{
+		
+		return "!!!!!!!!!!!!Welcome from Springboot!!!!!!!!!!!!!!!!";
+		
+	}
 }
